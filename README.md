@@ -18,6 +18,8 @@ In that file, create 2 student tasks and solutions to each of the following conc
 
 For example (loops):
 
+```
 // Task 5. Create a loop that prints out the message "Loopy!" 10 times.
 // Solution:
 for (let looper = 0; looper <= 10; looper++) { console.log("Loopy!"); }
+```
