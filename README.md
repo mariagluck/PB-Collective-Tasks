@@ -14,7 +14,7 @@ In that file, create 2 student tasks and solutions to each of the following conc
     - How switch statements work
     - How loops work
     - How functions work
-    - Solving problems with JavaScript (problems like we have had, like counting sports scores or words, or censoring words or checking some kind of numbers/strings etc)
+    - Solving problems with JavaScript (problems like we have had, such as counting sports scores or censoring words)
 
 For example (loops):
 
