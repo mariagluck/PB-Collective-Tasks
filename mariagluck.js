@@ -1,4 +1,4 @@
-// 1. Using if-else statement print out the message you get if you want to attend a children-only cinema and will print the film assigned to your age. This week films are (categorized by age):
+// 1. Use an if-else statement to print out the message you get if you want to attend a children-only cinema by telling child's age. The message should print the film assigned to viewer's age. This week films are (categorized by age):
 // Film: "Ponyo" is for 2 years old up to 5 years old. 
 // Film: "My Neighbor Totoro" is for 6 years old up to 10 years old.
 // Film: "Harry Potter" for 11 years old up to 15 years old.
@@ -14,17 +14,18 @@ let age = 10;
   } else {
       console.log("You are too old. Go to another cinema!!")
   }
-// It prints: The film for you today is My Neighbor Totoro!
+//  e.g. if age = 10 --> it prints: -->  "The film for you today is My Neighbor Totoro!"
 
-//2. There is a "sleep" study going on at a clinic working with 5 study-subjects: "Joe", "Jane"; "lila"; "Pepe", "Gina". Write a function named "hoursSleep" with an "if-else statement" that prints who sleeps more hours each day:
-// example: it prints " Pepe slept today the most! 9 hours"
+//2. There is a "sleep" study going on at a clinic and they are working with 5 study-subjects: "Joe", "Jane"; "lila"; "Pepe" and  "Gina". Write a function named "hoursSleep" with an "if-else statement" that prints who sleeps more hours each day once doctors pass the data of the hours each subject slept. It should run like this:
+// example: 
+//hoursSleep(4, 5, 8, 9, 7); // -->> "Pepe slept today the most! 9 hours"
 
    function hoursSleep(hoursJoe, hoursJane, hoursLila, hoursPepe, hoursGina) {
       if (hoursJoe > hoursJane && hoursJoe > hoursLila && hoursJoe > hoursPepe && hoursJoe > hoursGina)
    {
        console.log(`Joe slept today the most! ${hoursJoe} hours`);
        }
-       else if (hoursJane >hoursJoe && hoursJane > hoursLila && hoursJane > hoursPepe && hoursJane > hoursGina)
+       else if (hoursJane > hoursJoe && hoursJane > hoursLila && hoursJane > hoursPepe && hoursJane > hoursGina)
        {
            console.log(`Jane slept today the most! ${hoursJane} hours`);
        }
@@ -45,7 +46,7 @@ let age = 10;
 hoursSleep(4, 5, 8, 9, 7); 
 // it prints: Pepe slept today the most! 9 hours
    
-//3. // Create a multiple case switch program where you can write different food items from the supermarket and it will print if they are fruits or not. A list of fruit cases must be therefore included...
+//3. // Create a multiple case switch program where you can write different food items from the supermarket and it will print if they are fruits or not. ( hint: a list of fruit cases must be therefore included...)
 // example: 
 // "banana is a real fruit!";
 // "Potato is not a fruit" ;       
@@ -123,7 +124,7 @@ for( x = 1; x <= 10; x++)
     character = '';    
 }
 
-//7. Create a function, give it the name "result". It has 2 integer numbers as arguments. Calculate the sum of the two given integers. If the two values are the same, then print triple their sum. 
+//7. Create a function, give it the name "result". It passes 2 integer numbers as arguments. Calculate the sum of the two given integers. If the two values are the same, then print triple their sum. 
 
 function result(number1, number2) {
     if (number1 === number2) {
@@ -164,7 +165,7 @@ stringLength("Hello, how are you?");//The length of "Hello, how are you?" is: 19
 //  size: XL
 
 
-// **BONUS 1: How many rolls of fabric do we need for the jacket's lining if each jacket lining requires 85% of the amount of the main fabric/per size? Calculate the total meters of lining for all jackets in production given that linign fabric rolls have 50 meters each. i.e. It should print as follows : "The  amount of lining fabric rolls needed is ...
+// **BONUS 1: How many rolls of fabric do we need for the jacket's lining if each jacket lining requires 85% of the amount of the main fabric/per size? Calculate the total meters of lining for all jackets in production given that lining fabric rolls have 50 meters each. i.e. It should print as follows : "The  amount of lining fabric rolls needed is ...
 
 // **BONUS 2: How many rolls do we need if the fabric is double width? Print it as a string and specify how many rolls are lining and how many are main fabric.
 
