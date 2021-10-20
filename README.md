@@ -1,4 +1,10 @@
- 1. Use an if-else statement to print out the message you get if you want to attend a children-only cinema by telling child's age. The message should print the film assigned to viewer's age. This week films are (categorized by age):
+### Learn by teaching?
+
+In this repo I created javascript PB questions and solutions:
+------------------------------------------------------------
+
+
+1. Use an if-else statement to print out the message you get if you want to attend a children-only cinema by telling child's age. The message should print the film assigned to viewer's age. This week films are (categorized by age):
  
  * Film: "Ponyo" is for 2 years old up to 5 years old. 
  * Film: "My Neighbor Totoro" is for 6 years old up to 10 years old.
